@@ -200,4 +200,15 @@
 			(xyz 0 0 0)
 		)
 	)
+	(model "${KICAD8_3DMODEL_DIR}/Fuse.3dshapes/Littlefuse_1812L160_12.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
