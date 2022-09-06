@@ -703,4 +703,15 @@
 			(xyz 0 0 0)
 		)
 	)
+	(model "${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B9B-PH-SM4-TB_1x09-1MP_P2.00mm_Vertical.step"
+		(offset
+			(xyz -11 10.23 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
