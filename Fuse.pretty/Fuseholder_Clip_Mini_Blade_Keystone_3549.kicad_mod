@@ -1,0 +1,220 @@
+(footprint "Fuseholder_Clip_Mini_Blade_Keystone_3549"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mini Blade Automotive Fuse Clip Holder Single")
+	(tags "fuseholder clips mini blade fuse")
+	(property "Reference" "REF**"
+		(at 0.05 5.1 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ad916051-230d-46fe-8af8-5fa4142cf166")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fuseholder_Clip_Mini_Blade_Keystone_3549"
+		(at 1.65 5.1 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ab554eb4-8320-410f-b845-4fadb625bbc5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Fuseholder_Clip_Mini_Blade_Keystone_3549"
+		(at 0.05 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8cb4e44-445b-47b4-a101-f4ce849f86f2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=303"
+		(at 0.05 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07f5e208-c816-4341-921c-35fad4f16a5d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Mini Blade Automotive Fuse Clip Holder"
+		(at 0.05 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62a65359-1484-470f-bce9-86cd9203e222")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Mouser" "https://eu.mouser.com/ProductDetail/Keystone-Electronics/3549?qs=Mn60vILZNNb%252Bu9OM%252BurIpw%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9d23dfa1-60f2-4a2c-9814-2d528bb44301")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.25 -0.1)
+		(end -1.75 -0.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "69b2dff6-9c45-4103-8019-a91a82625a59")
+	)
+	(fp_line
+		(start -2.25 10.3)
+		(end -2.25 -0.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a7b4e8ac-71e1-4199-a782-4a228257b0e7")
+	)
+	(fp_line
+		(start -1.35 10.3)
+		(end -2.25 10.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d577aeb-8291-4209-805f-f2b8f2cdd0b5")
+	)
+	(fp_line
+		(start 1.75 -0.1)
+		(end 2.25 -0.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f281f86-20ec-4459-9520-fb92422f35cf")
+	)
+	(fp_line
+		(start 2.25 -0.1)
+		(end 2.25 10.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6214cee7-1b82-4ac1-9c5b-ebb82d2fa731")
+	)
+	(fp_line
+		(start 2.25 10.3)
+		(end 1.35 10.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8f9b52c5-de39-409f-b466-611c1353038c")
+	)
+	(fp_rect
+		(start -3.5 -3)
+		(end 3.5 12.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "5bc3464e-6d00-438c-ada3-b96c7874dca3")
+	)
+	(fp_line
+		(start -2.15 10.2)
+		(end -2.15 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "61fbce13-e309-4045-8924-10d1931e5694")
+	)
+	(fp_line
+		(start 2.15 0)
+		(end -2.15 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "66655d42-36c2-41f8-8fc5-51188f5483f5")
+	)
+	(fp_line
+		(start 2.15 10.2)
+		(end -2.15 10.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e0556eb1-a870-461e-8ccd-f620daca9935")
+	)
+	(fp_line
+		(start 2.15 10.2)
+		(end 2.15 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8b6bc592-8133-4cf5-b3e2-b879b4e1159c")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b126ad84-4f9e-42e0-b30b-76a8df88920b")
+	)
+	(pad "1" thru_hole circle
+		(at 0 10.2)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2f9d206f-aacb-4636-97aa-79489c2a0247")
+	)
+	(model "${KICAD7_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Keystone_3549.step"
+		(offset
+			(xyz -1.3 0.14 -3.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 180 90)
+		)
+	)
+)
