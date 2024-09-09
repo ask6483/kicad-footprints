@@ -6,7 +6,7 @@
 	(descr "20 Segments LED Bar Graph Array, Kingbright")
 	(tags "LED BAR GRAPH ARRAY")
 	(property "Reference" "REF**"
-		(at -3.302 -26.67 0)
+		(at 0 -26.67 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "c0fb9b6e-f72c-430b-ada6-e81a879be0c4")
@@ -70,18 +70,28 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -5.577 -25.7556)
-		(end -5.577 -24.0556)
+		(start -5.43 -25.7)
+		(end -5.43 -24.3)
 		(stroke
 			(width 0.12)
-			(type solid)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "261a0c79-9513-4df8-8c43-2b484b4a4807")
+		(uuid "09cf9fa8-f081-42c6-9313-06f19d4b1af7")
 	)
 	(fp_line
-		(start -5.26 -25.5)
-		(end 5.26 -25.5)
+		(start -5.43 -25.7)
+		(end -4.05 -25.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "27d6d5e2-4805-46c4-aa9a-5fbe9266854a")
+	)
+	(fp_line
+		(start -5.18 -25.45)
+		(end 5.18 -25.45)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -90,8 +100,8 @@
 		(uuid "eb9758c5-7177-4902-ac41-03fac31715b8")
 	)
 	(fp_line
-		(start -5.26 25.5)
-		(end -5.26 -25.5)
+		(start -5.18 25.45)
+		(end -5.18 -25.45)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -100,18 +110,8 @@
 		(uuid "a4411c78-8221-45e1-a072-5dd3a4712e8a")
 	)
 	(fp_line
-		(start -3.877 -25.7556)
-		(end -5.577 -25.7556)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "493ddcb3-2174-45ae-8b88-6250e9a2deb6")
-	)
-	(fp_line
-		(start 5.26 -25.5)
-		(end 5.26 25.5)
+		(start 5.18 -25.45)
+		(end 5.18 25.45)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -120,8 +120,8 @@
 		(uuid "5fb00cd0-3a5e-4b89-bcad-21b132c6599b")
 	)
 	(fp_line
-		(start 5.26 25.5)
-		(end -5.26 25.5)
+		(start 5.18 25.45)
+		(end -5.18 25.45)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -130,8 +130,8 @@
 		(uuid "6db458fd-4438-48fd-9c90-175284a6650b")
 	)
 	(fp_line
-		(start -5.34 -25.58)
-		(end -5.34 25.58)
+		(start -5.28 -25.55)
+		(end -5.28 25.55)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -140,8 +140,8 @@
 		(uuid "722d76bd-2de8-4b65-9f5c-9246071909fe")
 	)
 	(fp_line
-		(start -5.34 -25.58)
-		(end 5.34 -25.58)
+		(start -5.28 -25.55)
+		(end 5.28 -25.55)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -150,8 +150,8 @@
 		(uuid "2d2c6de5-809a-4543-9276-da8fc4c795b2")
 	)
 	(fp_line
-		(start -5.34 25.58)
-		(end 5.34 25.58)
+		(start -5.28 25.55)
+		(end 5.28 25.55)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -160,8 +160,8 @@
 		(uuid "980c7352-b634-4232-9630-f631f1243cdd")
 	)
 	(fp_line
-		(start 5.34 25.58)
-		(end 5.34 -25.58)
+		(start 5.28 25.55)
+		(end 5.28 -25.55)
 		(stroke
 			(width 0.05)
 			(type solid)
