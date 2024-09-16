@@ -6,7 +6,7 @@
 	(descr "TSOT, 8 Pin (https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant BA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 	(tags "TSOT TO_SOT_SMD")
 	(property "Reference" "REF**"
-		(at 0 -2.4 0)
+		(at 0 -2.54 0)
 		(layer "F.SilkS")
 		(uuid "9e64aa93-a3d5-4432-8576-f2ecc4fe5766")
 		(effects
@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,13 +62,14 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
 	(fp_line
 		(start 0 -1.56)
-		(end -0.8 -1.56)
+		(end -0.85 -1.56)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -76,7 +79,7 @@
 	)
 	(fp_line
 		(start 0 -1.56)
-		(end 0.8 -1.56)
+		(end 0.85 -1.56)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -86,7 +89,7 @@
 	)
 	(fp_line
 		(start 0 1.56)
-		(end -0.8 1.56)
+		(end -0.85 1.56)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -96,7 +99,7 @@
 	)
 	(fp_line
 		(start 0 1.56)
-		(end 0.8 1.56)
+		(end 0.85 1.56)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -157,8 +160,8 @@
 		(uuid "2ff45f40-32c7-4e38-a0f2-f9af853bad66")
 	)
 	(fp_line
-		(start -0.8 -1.05)
-		(end -0.4 -1.45)
+		(start -0.85 -1.05)
+		(end -0.45 -1.45)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -167,8 +170,8 @@
 		(uuid "17008603-e89f-42f9-ae55-55a6beaea095")
 	)
 	(fp_line
-		(start -0.8 1.45)
-		(end -0.8 -1.05)
+		(start -0.85 1.45)
+		(end -0.85 -1.05)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -177,8 +180,8 @@
 		(uuid "b1152445-1f45-4f5d-8a7d-080141b93639")
 	)
 	(fp_line
-		(start -0.4 -1.45)
-		(end 0.8 -1.45)
+		(start -0.45 -1.45)
+		(end 0.85 -1.45)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -187,8 +190,8 @@
 		(uuid "57384651-46e4-4022-acfa-b1a4290122b6")
 	)
 	(fp_line
-		(start 0.8 -1.45)
-		(end 0.8 1.45)
+		(start 0.85 -1.45)
+		(end 0.85 1.45)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -197,8 +200,8 @@
 		(uuid "05ffdd48-2758-48e8-95d1-b6692cfe13c3")
 	)
 	(fp_line
-		(start 0.8 1.45)
-		(end -0.8 1.45)
+		(start 0.85 1.45)
+		(end -0.85 1.45)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -218,57 +221,57 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -1.1375 -0.975)
-		(size 1.325 0.5)
+		(at -1.31 -0.975)
+		(size 1.22 0.4)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "8476f18d-186f-4b40-933c-72e37a50b786")
 	)
 	(pad "2" smd roundrect
-		(at -1.1375 -0.325)
-		(size 1.325 0.5)
+		(at -1.31 -0.325)
+		(size 1.22 0.4)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "cf9e9859-ca4e-4db0-8776-f102960c8b05")
 	)
 	(pad "3" smd roundrect
-		(at -1.1375 0.325)
-		(size 1.325 0.5)
+		(at -1.31 0.325)
+		(size 1.22 0.4)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "3fc81053-bc68-4560-b8b6-99609f6f890d")
 	)
 	(pad "4" smd roundrect
-		(at -1.1375 0.975)
-		(size 1.325 0.5)
+		(at -1.31 0.975)
+		(size 1.22 0.4)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "f4985ab1-b49c-45a3-a9cc-7d3595c3c0b0")
 	)
 	(pad "5" smd roundrect
-		(at 1.1375 0.975)
-		(size 1.325 0.5)
+		(at 1.31 0.975)
+		(size 1.22 0.4)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "531e21d5-1da9-4032-96a4-28efe5042db8")
 	)
 	(pad "6" smd roundrect
-		(at 1.1375 0.325)
-		(size 1.325 0.5)
+		(at 1.31 0.325)
+		(size 1.22 0.4)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "708cd9a1-d7d8-4b0f-b91c-bd6456e88d11")
 	)
 	(pad "7" smd roundrect
-		(at 1.1375 -0.325)
-		(size 1.325 0.5)
+		(at 1.31 -0.325)
+		(size 1.22 0.4)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "f79f754c-93a2-410c-a338-8c8cfb923adb")
 	)
 	(pad "8" smd roundrect
-		(at 1.1375 -0.975)
-		(size 1.325 0.5)
+		(at 1.31 -0.975)
+		(size 1.22 0.4)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "b442271f-6fe4-427c-b9bd-eba316b1dfef")
