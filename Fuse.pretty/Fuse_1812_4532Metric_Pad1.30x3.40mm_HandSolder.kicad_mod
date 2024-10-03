@@ -192,18 +192,7 @@
 		(roundrect_rratio 0.192308)
 		(uuid "387f3196-a575-4511-83e7-110ec20cfe69")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "${KICAD8_3DMODEL_DIR}/Fuse.3dshapes/Littlefuse_1812L160_12.stp"
+	(model "${KICAD8_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.step"
 		(offset
 			(xyz 0 0 0)
 		)
