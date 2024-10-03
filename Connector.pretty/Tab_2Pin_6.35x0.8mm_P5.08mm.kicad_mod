@@ -1,0 +1,268 @@
+(footprint "Tab_2Pin_6.35x0.8mm_P5.08mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "solder flat tab, faston, pitch 5.08mm, width 6.35mm, thickness 0.8mm")
+	(tags "solder tab flat faston")
+	(property "Reference" "REF**"
+		(at 0 -2.032 0)
+		(layer "F.SilkS")
+		(uuid "b648ac41-e99b-4b44-bb62-2d7e27666e78")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Tab_2Pin_6.35x0.8mm_P5.08mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "23741efe-d2b5-4e3c-9194-162a2dda2fac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "910594df-a6d8-45d9-89ac-82b4917c76d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a1fed4f-d446-4bba-bafb-98731da45f78")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf38a25a-cf04-4d43-9c2d-bcd9e7b74811")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.064 -0.508)
+		(end -4.064 0.508)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bc1362e9-8a2e-404d-a4b5-ef51ac730503")
+	)
+	(fp_line
+		(start -4.064 -0.508)
+		(end -3.9 -0.508)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "874d3f70-57b4-4271-8c46-6f744b34dffe")
+	)
+	(fp_line
+		(start -4.064 0.508)
+		(end -3.9 0.508)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2318ad01-af71-4f93-9d6b-4602e7c2dcdc")
+	)
+	(fp_line
+		(start 1.15 -0.508)
+		(end -1.15 -0.508)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "57f4611e-c98f-4189-91f6-21baf4c53d12")
+	)
+	(fp_line
+		(start 1.15 0.508)
+		(end -1.15 0.508)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "396e6197-362a-4058-b6fd-25110221c126")
+	)
+	(fp_line
+		(start 3.9 -0.508)
+		(end 4.064 -0.508)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ed3a81e5-da3a-4b3e-8400-150a742f3596")
+	)
+	(fp_line
+		(start 3.9 0.508)
+		(end 4.064 0.508)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "32efbb24-b706-4037-9392-1c4665d0752f")
+	)
+	(fp_line
+		(start 4.064 -0.508)
+		(end 4.064 0.508)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "02e1fbc8-268e-477e-a282-85050185ab8d")
+	)
+	(fp_line
+		(start -5 -2.5)
+		(end -5 2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2283298e-a21f-4b3f-91f8-cfb8be6ceda7")
+	)
+	(fp_line
+		(start -5 -2.5)
+		(end 5 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "aea510e6-e782-4f52-9769-a9bdeba25d1d")
+	)
+	(fp_line
+		(start 5 2.5)
+		(end -5 2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7e422ecb-05d8-493d-930f-43870bde7e3a")
+	)
+	(fp_line
+		(start 5 2.5)
+		(end 5 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3c26be41-9df4-446d-b770-1b3286a86a9f")
+	)
+	(fp_line
+		(start -3.96 -0.4)
+		(end 3.96 -0.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4ece9bf6-de0b-4c44-bcf1-d22be41d7ea4")
+	)
+	(fp_line
+		(start -3.96 0.4)
+		(end -3.96 -0.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "584d095e-73a9-4aa7-9a0d-e4c50022364a")
+	)
+	(fp_line
+		(start -3.96 0.4)
+		(end 3.96 0.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a9c5cfab-796c-476f-9bd9-fa87ab622fc1")
+	)
+	(fp_line
+		(start 3.96 -0.4)
+		(end 3.96 0.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8f2c83d7-d6a1-444b-9334-970aad474d1b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.286 0)
+		(layer "F.Fab")
+		(uuid "cefb884b-e709-4ab3-b075-e18012c1067a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -2.54 0)
+		(size 2.3 2.6)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a51017a3-63e6-48fe-ae2a-9cc5524a1e45")
+	)
+	(pad "1" thru_hole oval
+		(at 2.54 0)
+		(size 2.3 2.6)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "247974f5-6992-4370-8b34-9e4226be60a0")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector.3dshapes/Tab_2Pin_6.35x08mm_P5.08mm.step"
+		(offset
+			(xyz 0 0 10.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
