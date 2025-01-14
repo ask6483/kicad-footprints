@@ -3,7 +3,7 @@
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "Inductor, Pulse, PA4332, 4.2x4.2x2.0mm, (https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/pa4332.222nlt), generated with kicad-footprint-generator gen_inductor.py")
-	(tags "Inductor Pulse -SMT -PA4332")
+	(tags "Inductor Pulse SMT PA4332")
 	(property "Value" "L_Pulse_PA4332"
 		(at 0 3.1 0)
 		(layer "F.Fab")
@@ -165,13 +165,13 @@
 		(at -1.5 0)
 		(size 1.1 3.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.25)
+		(roundrect_rratio 0.227273)
 	)
 	(pad "2" smd roundrect
 		(at 1.5 0)
 		(size 1.1 3.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.25)
+		(roundrect_rratio 0.227273)
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Pulse_PA4332.wrl"
 		(offset
