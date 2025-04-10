@@ -2,8 +2,8 @@
 	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "Crystal THT DS10 4.3mm length 1.0mm diameter http://www.microcrystal.com/images/_Product-Documentation/03_TF_metal_Packages/01_Datasheet/DS-Series.pdf")
-	(tags "DS10")
+	(descr "DS10, Crystal, length 4.3mm, width 1.0mm, THT, https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/DS-Series.pdf")
+	(tags "")
 	(property "Reference" "REF**"
 		(at -1.44 1.075 90)
 		(layer "F.SilkS")
@@ -88,63 +88,19 @@
 		)
 		(layer "F.SilkS")
 	)
-	(fp_line
+	(fp_rect
 		(start -0.75 -0.75)
-		(end -0.75 6.56)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start -0.75 6.56)
 		(end 2.25 6.56)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 2.25 -0.75)
-		(end -0.75 -0.75)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-	)
-	(fp_line
-		(start 2.25 6.56)
-		(end 2.25 -0.75)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
+		(fill no)
 		(layer "F.CrtYd")
 	)
 	(fp_line
 		(start 0 0.75)
 		(end 0 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 0.25 1.5)
-		(end 0.25 5.8)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 0.25 5.8)
-		(end 1.25 5.8)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -170,30 +126,22 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 1.25 1.5)
-		(end 0.25 1.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 1.25 5.8)
-		(end 1.25 1.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
 		(start 1.5 0.75)
 		(end 1.5 0)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
+		(layer "F.Fab")
+	)
+	(fp_rect
+		(start 0.25 1.5)
+		(end 1.25 5.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
 		(layer "F.Fab")
 	)
 	(fp_text user "${REFERENCE}"
