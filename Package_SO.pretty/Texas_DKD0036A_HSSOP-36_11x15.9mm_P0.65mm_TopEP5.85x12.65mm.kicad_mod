@@ -132,14 +132,112 @@
 		(fill no)
 		(layer "Cmts.User")
 	)
-	(fp_rect
-		(start -7.85 -8.2)
-		(end 7.85 8.2)
+	(fp_line
+		(start -7.85 -6.03)
+		(end -5.75 -6.03)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
-		(fill no)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -7.85 6.03)
+		(end -7.85 -6.03)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -5.75 -8.2)
+		(end 5.75 -8.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -5.75 -6.03)
+		(end -5.75 -8.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -5.75 6.03)
+		(end -7.85 6.03)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -5.75 8.2)
+		(end -5.75 6.03)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 5.75 -8.2)
+		(end 5.75 -6.03)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 5.75 -6.03)
+		(end 7.85 -6.03)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 5.75 6.03)
+		(end 5.75 8.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 5.75 8.2)
+		(end -5.75 8.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 7.85 -6.03)
+		(end 7.85 6.03)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 7.85 6.03)
+		(end 5.75 6.03)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
 		(layer "F.CrtYd")
 	)
 	(fp_line
@@ -414,7 +512,7 @@
 		(roundrect_rratio 0.25)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/Texas_DKD0036A_HSSOP-36_11x15.9mm_P0.65mm_TopEP5.85x12.65mm.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/Texas_DKD0036A_HSSOP-36_11x15.9mm_P0.65mm_TopEP5.85x12.65mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

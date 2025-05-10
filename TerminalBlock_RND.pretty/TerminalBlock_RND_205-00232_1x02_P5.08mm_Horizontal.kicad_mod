@@ -291,7 +291,7 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 0.796 -0.948)
+		(start 0.795 -0.948)
 		(end -0.948 0.795)
 		(stroke
 			(width 0.1)
@@ -301,7 +301,7 @@
 	)
 	(fp_line
 		(start 0.948 -0.795)
-		(end -0.796 0.948)
+		(end -0.795 0.948)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -345,7 +345,7 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 5.876 -0.948)
+		(start 5.875 -0.948)
 		(end 4.132 0.795)
 		(stroke
 			(width 0.1)
@@ -355,7 +355,7 @@
 	)
 	(fp_line
 		(start 6.028 -0.795)
-		(end 4.284 0.948)
+		(end 4.285 0.948)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -444,7 +444,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_RND.3dshapes/TerminalBlock_RND_205-00232_1x02_P5.08mm_Horizontal.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_RND.3dshapes/TerminalBlock_RND_205-00232_1x02_P5.08mm_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

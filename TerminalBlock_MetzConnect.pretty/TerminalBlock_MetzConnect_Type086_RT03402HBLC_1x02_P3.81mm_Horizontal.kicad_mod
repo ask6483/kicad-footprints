@@ -291,7 +291,7 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 0.796 -0.948)
+		(start 0.795 -0.948)
 		(end -0.948 0.795)
 		(stroke
 			(width 0.1)
@@ -301,7 +301,7 @@
 	)
 	(fp_line
 		(start 0.948 -0.795)
-		(end -0.796 0.948)
+		(end -0.795 0.948)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -345,7 +345,7 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 4.606 -0.948)
+		(start 4.605 -0.948)
 		(end 2.862 0.795)
 		(stroke
 			(width 0.1)
@@ -355,7 +355,7 @@
 	)
 	(fp_line
 		(start 4.758 -0.795)
-		(end 3.014 0.948)
+		(end 3.015 0.948)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -444,7 +444,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_MetzConnect.3dshapes/TerminalBlock_MetzConnect_Type086_RT03402HBLC_1x02_P3.81mm_Horizontal.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_MetzConnect.3dshapes/TerminalBlock_MetzConnect_Type086_RT03402HBLC_1x02_P3.81mm_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

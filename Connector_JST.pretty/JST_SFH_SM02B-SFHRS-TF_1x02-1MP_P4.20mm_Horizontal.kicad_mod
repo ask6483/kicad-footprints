@@ -108,6 +108,15 @@
 	)
 	(fp_line
 		(start -2.6 -2.875)
+		(end -2.1 -2.167893)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -2.6 -2.875)
 		(end 2.6 -2.875)
 		(stroke
 			(width 0.1)
@@ -125,26 +134,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start -2.35 -4.083553)
-		(end -2.1 -3.73)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -2.1 -3.73)
-		(end -1.85 -4.083553)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -1.85 -4.083553)
-		(end -2.35 -4.083553)
+		(start -2.1 -2.167893)
+		(end -1.6 -2.875)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -195,7 +186,7 @@
 		(roundrect_rratio 0.25)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SFH_SM02B-SFHRS-TF_1x02-1MP_P4.20mm_Horizontal.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SFH_SM02B-SFHRS-TF_1x02-1MP_P4.20mm_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

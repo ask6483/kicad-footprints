@@ -346,7 +346,7 @@
 	)
 	(fp_line
 		(start 1.273 -1.017)
-		(end -1.517 1.772)
+		(end -1.517 1.773)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -400,7 +400,7 @@
 	)
 	(fp_line
 		(start 10.793 -1.017)
-		(end 8.003 1.772)
+		(end 8.003 1.773)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -454,7 +454,7 @@
 	)
 	(fp_line
 		(start 20.313 -1.017)
-		(end 17.523 1.772)
+		(end 17.523 1.773)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -551,7 +551,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_MetzConnect.3dshapes/TerminalBlock_MetzConnect_Type703_RT10N03HGLU_1x03_P9.52mm_Horizontal.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_MetzConnect.3dshapes/TerminalBlock_MetzConnect_Type703_RT10N03HGLU_1x03_P9.52mm_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

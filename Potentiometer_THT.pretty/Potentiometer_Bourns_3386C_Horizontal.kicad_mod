@@ -35,8 +35,17 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 2.525 -2.335)
-		(end -2.525 -2.335)
+		(start -2.525 -2.335)
+		(end 2.525 -2.335)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -2.525 7.415)
+		(end 2.525 7.415)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -46,15 +55,6 @@
 	(fp_line
 		(start 2.525 -2.335)
 		(end 2.525 7.415)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 2.525 7.415)
-		(end -2.525 7.415)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -113,7 +113,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3386C_Horizontal.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3386C_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

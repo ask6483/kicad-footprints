@@ -102,8 +102,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_rect
-		(start -1.5 -1.5)
-		(end 1.5 1.5)
+		(start 1.5 1.5)
+		(end -1.5 -1.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -197,7 +197,7 @@
 		(roundrect_rratio 0.25)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_LGA.3dshapes/ST_HLGA-10_2.5x2.5mm_P0.6mm_LayoutBorder3x2y.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Package_LGA.3dshapes/ST_HLGA-10_2.5x2.5mm_P0.6mm_LayoutBorder3x2y.step"
 		(offset
 			(xyz 0 0 0)
 		)

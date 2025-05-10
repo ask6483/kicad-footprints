@@ -35,8 +35,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -0.382 -0.87)
-		(end -2.46 -0.87)
+		(start -2.46 -0.87)
+		(end -0.382 -0.87)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -44,8 +44,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -0.382 5.95)
-		(end -2.46 5.95)
+		(start -2.46 5.95)
+		(end -0.382 5.95)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -53,8 +53,17 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 2.46 -0.87)
-		(end 0.382 -0.87)
+		(start 0.382 -0.87)
+		(end 2.46 -0.87)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 0.382 5.95)
+		(end 2.46 5.95)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -64,15 +73,6 @@
 	(fp_line
 		(start 2.46 -0.87)
 		(end 2.46 5.95)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 2.46 5.95)
-		(end 0.382 5.95)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -131,7 +131,7 @@
 		(remove_unused_layers no)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Vishay_T73XW_Horizontal.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Vishay_T73XW_Horizontal.step"
 		(offset
 			(xyz 0 0 0)
 		)

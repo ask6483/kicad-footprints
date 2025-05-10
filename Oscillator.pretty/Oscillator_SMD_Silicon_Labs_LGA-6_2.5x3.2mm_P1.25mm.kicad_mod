@@ -57,8 +57,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_rect
-		(start -1.5 -1.85)
-		(end 1.5 1.85)
+		(start 1.5 1.85)
+		(end -1.5 -1.85)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -128,7 +128,7 @@
 		(roundrect_rratio 0.25)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_Silicon_Labs_LGA-6_2.5x3.2mm_P1.25mm.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_Silicon_Labs_LGA-6_2.5x3.2mm_P1.25mm.step"
 		(offset
 			(xyz 0 0 0)
 		)
