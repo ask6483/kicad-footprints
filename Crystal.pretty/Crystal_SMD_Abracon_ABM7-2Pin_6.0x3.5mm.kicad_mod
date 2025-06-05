@@ -180,13 +180,13 @@
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_Abracon_ABM7-2Pin_6.0x3.5mm.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz -42.89 -18.66 -5.15)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 90 180 -0)
 		)
 	)
 )
