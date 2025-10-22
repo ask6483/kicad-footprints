@@ -2,7 +2,7 @@
 	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "SOIC, 28 Pin (https://www.akm.com/akm/en/file/datasheet/AK5394AVS.pdf#page=23), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(descr "SOIC, 28 Pin (https://www.es.co.th/Schemetic/PDF/AK5394A.PDF#page=23), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 	(tags "SOIC SO")
 	(property "Reference" "REF**"
 		(at 0 -10.3 0)
@@ -27,7 +27,16 @@
 	(attr smd)
 	(fp_line
 		(start -3.86 -9.46)
-		(end -3.86 -8.815)
+		(end 3.86 -9.46)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -3.86 -8.815)
+		(end -3.86 -9.46)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -44,42 +53,6 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 0 -9.46)
-		(end -3.86 -9.46)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 0 -9.46)
-		(end 3.86 -9.46)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 0 9.46)
-		(end -3.86 9.46)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 0 9.46)
-		(end 3.86 9.46)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
 		(start 3.86 -9.46)
 		(end 3.86 -8.815)
 		(stroke
@@ -89,8 +62,17 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
+		(start 3.86 8.815)
+		(end 3.86 9.46)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
 		(start 3.86 9.46)
-		(end 3.86 8.815)
+		(end -3.86 9.46)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -99,9 +81,9 @@
 	)
 	(fp_poly
 		(pts
-			(xy -4.725 -8.815)
-			(xy -5.065 -9.285)
-			(xy -4.385 -9.285)
+			(xy -4.81 -8.82)
+			(xy -5.15 -9.29)
+			(xy -4.47 -9.29)
 		)
 		(stroke
 			(width 0.12)
