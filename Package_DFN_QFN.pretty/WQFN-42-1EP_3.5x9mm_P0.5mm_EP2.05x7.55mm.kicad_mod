@@ -2,7 +2,7 @@
 	(version 20241229)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "WQFN, 42 Pin (http://www.ti.com/lit/ds/symlink/ts3l501e.pdf#page=23), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(descr "WQFN, 42 Pin (http://www.ti.com/lit/ds/symlink/ts3l501e.pdf#page=23, https://www.diodes.com/assets/Package-Files/PD-2035J_ZH42.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
 	(tags "WQFN NoLead")
 	(property "Reference" "REF**"
 		(at 0 -5.83 0)
@@ -292,11 +292,11 @@
 	)
 	(fp_poly
 		(pts
-			(xy -1.75 -3.625)
-			(xy -1.75 4.5)
-			(xy 1.75 4.5)
-			(xy 1.75 -4.5)
 			(xy -0.875 -4.5)
+			(xy 1.75 -4.5)
+			(xy 1.75 4.5)
+			(xy -1.75 4.5)
+			(xy -1.75 -3.625)
 		)
 		(stroke
 			(width 0.1)
