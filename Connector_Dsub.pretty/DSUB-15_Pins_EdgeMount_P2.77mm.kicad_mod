@@ -1,5 +1,5 @@
 (footprint "DSUB-15_Pins_EdgeMount_P2.77mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
 	(descr "15-pin D-Sub connector, solder-cups edge-mounted, pins (male), x-pin-pitch 2.77mm, distance of mounting holes 33.3mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf")
@@ -25,6 +25,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -11.118333 -2.24)
 		(end -6.925 -2.24)
@@ -469,83 +470,103 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -9.695 0)
 		(size 1.846667 3.48)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.135379)
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at -6.925 0)
 		(size 1.846667 3.48)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.135379)
 	)
-	(pad "3" smd rect
+	(pad "3" smd roundrect
 		(at -4.155 0)
 		(size 1.846667 3.48)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.135379)
 	)
-	(pad "4" smd rect
+	(pad "4" smd roundrect
 		(at -1.385 0)
 		(size 1.846667 3.48)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.135379)
 	)
-	(pad "5" smd rect
+	(pad "5" smd roundrect
 		(at 1.385 0)
 		(size 1.846667 3.48)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.135379)
 	)
-	(pad "6" smd rect
+	(pad "6" smd roundrect
 		(at 4.155 0)
 		(size 1.846667 3.48)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.135379)
 	)
-	(pad "7" smd rect
+	(pad "7" smd roundrect
 		(at 6.925 0)
 		(size 1.846667 3.48)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.135379)
 	)
-	(pad "8" smd rect
+	(pad "8" smd roundrect
 		(at 9.695 0)
 		(size 1.846667 3.48)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.135379)
 	)
-	(pad "9" smd rect
+	(pad "9" smd roundrect
 		(at -8.31 0)
 		(size 1.846667 3.48)
 		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.135379)
 	)
-	(pad "10" smd rect
+	(pad "10" smd roundrect
 		(at -5.54 0)
 		(size 1.846667 3.48)
 		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.135379)
 	)
-	(pad "11" smd rect
+	(pad "11" smd roundrect
 		(at -2.77 0)
 		(size 1.846667 3.48)
 		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.135379)
 	)
-	(pad "12" smd rect
+	(pad "12" smd roundrect
 		(at 0 0)
 		(size 1.846667 3.48)
 		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.135379)
 	)
-	(pad "13" smd rect
+	(pad "13" smd roundrect
 		(at 2.77 0)
 		(size 1.846667 3.48)
 		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.135379)
 	)
-	(pad "14" smd rect
+	(pad "14" smd roundrect
 		(at 5.54 0)
 		(size 1.846667 3.48)
 		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.135379)
 	)
-	(pad "15" smd rect
+	(pad "15" smd roundrect
 		(at 8.31 0)
 		(size 1.846667 3.48)
 		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.135379)
+	)
+	(point
+		(at 0 1.99)
+		(size 2)
+		(layer "F.Fab")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_Dsub.3dshapes/DSUB-15_Pins_EdgeMount_P2.77mm.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Dsub.3dshapes/DSUB-15_Pins_EdgeMount_P2.77mm.step"
 		(offset
 			(xyz 0 0 0)
 		)
