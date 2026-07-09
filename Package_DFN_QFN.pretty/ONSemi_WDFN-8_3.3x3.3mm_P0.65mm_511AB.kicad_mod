@@ -1,0 +1,266 @@
+(footprint "ONSemi_WDFN-8_3.3x3.3mm_P0.65mm_511AB"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "ON Semi WDFN8 3.3x3.3mm 0.65P CASE 511AB https://www.onsemi.com/download/package-drawing/pdf/511ab.pdf")
+	(tags "ON Semi WDFN8 3.3x3.3mm 0.65P CASE 511AB")
+	(property "Reference" "REF**"
+		(at 0 -2.5908 0)
+		(layer "F.SilkS")
+		(uuid "a7478810-6ddc-45fd-82a7-f5be6977a931")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ONSemi_WDFN-8_3.3x3.3mm_P0.65mm_511AB"
+		(at 0 4.4704 0)
+		(layer "F.Fab")
+		(uuid "e9709ee8-ed7b-438b-a594-e99dee7c206c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.onsemi.com/download/package-drawing/pdf/511ab.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2b44a7c-476f-4047-8ac9-c31569db2f40")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5937f7d5-145e-49bf-b30d-119716ac4751")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.7272 1.4732)
+		(end -1.7272 1.7272)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c0e72a2-7ad0-49e4-a29a-a7daf1b3c1c6")
+	)
+	(fp_line
+		(start -0.605 -1.73)
+		(end -0.9652 -1.73)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "10eb83c2-e114-46a7-8992-eee3a13c9261")
+	)
+	(fp_line
+		(start -0.605 1.7272)
+		(end -1.7272 1.7272)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd882a03-1fa0-407a-8be2-811cff2f69ec")
+	)
+	(fp_line
+		(start 1.7272 -1.7272)
+		(end 0.605 -1.7272)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "440b8675-ae24-4e42-9746-1fa4ec85d359")
+	)
+	(fp_line
+		(start 1.7272 -1.7272)
+		(end 1.7272 -1.4732)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "35f9e518-ff8d-4a7f-a416-28c68be6fe3c")
+	)
+	(fp_line
+		(start 1.7272 1.4732)
+		(end 1.7272 1.7018)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d2a10a03-22c0-4ada-9507-1d3130d725fa")
+	)
+	(fp_line
+		(start 1.7272 1.7272)
+		(end 0.605 1.7272)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1f39d74f-fc29-4be9-9ba9-158527955747")
+	)
+	(fp_poly
+		(pts
+			(xy -1.4732 -1.4732) (xy -1.2332 -1.8032) (xy -1.7132 -1.8032) (xy -1.4732 -1.4732)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "f5bf1144-5d76-44f6-a719-f9c5f5cfc908")
+	)
+	(fp_line
+		(start -1.65 -1.65)
+		(end -1.65 1.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "978b0805-b234-4f49-a07c-0017c6ea8145")
+	)
+	(fp_line
+		(start 1.65 -1.65)
+		(end -1.65 -1.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8ac0c383-4ba3-487d-b2f1-ffea58551eab")
+	)
+	(fp_line
+		(start 1.65 -1.65)
+		(end 1.65 1.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e3840c11-3c69-4455-9dbc-9bb9ced9c390")
+	)
+	(fp_line
+		(start 1.65 1.65)
+		(end -1.65 1.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bd125eef-9f50-47fc-91cf-199760054cc0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.249813 2.6416 0)
+		(layer "F.Fab")
+		(uuid "94af0e8b-ac4b-4202-9406-83ff61b977e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.47 -0.975)
+		(size 0.66 0.42)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "25cbe33f-4b3e-4918-8819-b20550184385")
+	)
+	(pad "2" smd roundrect
+		(at -1.47 -0.325)
+		(size 0.66 0.42)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "9fa9177e-c82c-46dc-99cc-e6ad3afd3da2")
+	)
+	(pad "3" smd roundrect
+		(at -1.47 0.325)
+		(size 0.66 0.42)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "0763f539-6bfb-4ee8-bc90-52bacf4cdea0")
+	)
+	(pad "4" smd roundrect
+		(at -1.47 0.975)
+		(size 0.66 0.42)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "94367383-25f1-4eba-b796-ff6b4e13cb0a")
+	)
+	(pad "5" smd custom
+		(at -0.0508 0)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.300613 -1.725661) (xy 0.319105 -1.713305) (xy 0.331461 -1.694813) (xy 0.3358 -1.673) (xy 0.3358 -1.185)
+					(xy 1.3436 -1.185) (xy 1.8238 -1.185) (xy 1.847909 -1.180204) (xy 1.868348 -1.166548) (xy 1.882004 -1.146109)
+					(xy 1.8868 -1.122) (xy 1.8868 -0.828) (xy 1.882004 -0.803891) (xy 1.868348 -0.783452) (xy 1.847909 -0.769796)
+					(xy 1.8238 -0.765) (xy 1.4168 -0.765) (xy 1.4168 -0.535) (xy 1.8238 -0.535) (xy 1.847909 -0.530204)
+					(xy 1.868348 -0.516548) (xy 1.882004 -0.496109) (xy 1.8868 -0.472) (xy 1.8868 -0.178) (xy 1.882004 -0.153891)
+					(xy 1.868348 -0.133452) (xy 1.847909 -0.119796) (xy 1.8238 -0.115) (xy 1.4168 -0.115) (xy 1.4168 0.115)
+					(xy 1.8238 0.115) (xy 1.847909 0.119796) (xy 1.868348 0.133452) (xy 1.882004 0.153891) (xy 1.8868 0.178)
+					(xy 1.8868 0.472) (xy 1.882004 0.496109) (xy 1.868348 0.516548) (xy 1.847909 0.530204) (xy 1.8238 0.535)
+					(xy 1.4168 0.535) (xy 1.4168 0.765) (xy 1.8238 0.765) (xy 1.847909 0.769796) (xy 1.868348 0.783452)
+					(xy 1.882004 0.803891) (xy 1.8868 0.828) (xy 1.8868 1.122) (xy 1.882004 1.146109) (xy 1.868348 1.166548)
+					(xy 1.847909 1.180204) (xy 1.8238 1.185) (xy 1.2898 1.185) (xy 0.3358 1.185) (xy 0.3358 1.673)
+					(xy 0.331461 1.694813) (xy 0.319105 1.713305) (xy 0.300613 1.725661) (xy 0.2788 1.73) (xy -0.1772 1.73)
+					(xy -0.199013 1.725661) (xy -0.217505 1.713305) (xy -0.229861 1.694813) (xy -0.2342 1.673) (xy -0.2342 1.185)
+					(xy -0.34 1.185) (xy -0.368012 1.179428) (xy -0.39176 1.16356) (xy -0.407628 1.139812) (xy -0.4132 1.1118)
+					(xy -0.4132 -1.1118) (xy -0.407628 -1.139812) (xy -0.39176 -1.16356) (xy -0.368012 -1.179428) (xy -0.34 -1.185)
+					(xy -0.2342 -1.185) (xy -0.2342 -1.673) (xy -0.229861 -1.694813) (xy -0.217505 -1.713305) (xy -0.199013 -1.725661)
+					(xy -0.1772 -1.73) (xy 0.2788 -1.73)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "c84aa4cb-c772-4f78-8820-be84d434df4b")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/ONSemi_SO-8FL_488AA.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
