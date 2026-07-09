@@ -1,0 +1,287 @@
+(footprint "Amphenol_Anytek_NQ4.0_1x03_P4.0mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "NQ 4.0 Series SMT Spring Clamp Terminal")
+	(tags "NQ")
+	(property "Reference" "REF**"
+		(at 0 -6.985 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f5f9ae9b-589b-4718-b100-b71506841ec4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "NQ0321x0xxxxG"
+		(at 0 7.112 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5c6b025b-e162-40ee-8f17-343f6a6a4600")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.anytek.com.cn/UserUpFiles/20151224/4A_Tgm9IAnDC.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ab7a6e2-e599-44c6-9373-d02af5d363ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e653ca2f-a106-468d-be3e-fd3b108ea6c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -6.1 -5.6)
+		(end -5.2 -5.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1bfd4603-188d-4a00-bac4-b83ab10e4d75")
+	)
+	(fp_line
+		(start -6.1 3.6)
+		(end -6.1 -5.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "764a785d-a543-4142-9dd4-fbbb931e97e5")
+	)
+	(fp_line
+		(start -5.2 3.6)
+		(end -6.1 3.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c559069d-9b19-4a97-acfa-6ef3caccb34e")
+	)
+	(fp_line
+		(start -5.2 3.6)
+		(end -5.2 5.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c6b84422-830d-422d-a674-9177db116087")
+	)
+	(fp_line
+		(start -2.8 -5.6)
+		(end -1.2 -5.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e9d41ac8-c903-4093-a5b0-08231e42fde9")
+	)
+	(fp_line
+		(start -2.8 3.6)
+		(end -1.2 3.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4c685d8-5691-494f-8e42-2f77a68eea1c")
+	)
+	(fp_line
+		(start 1.2 -5.6)
+		(end 2.8 -5.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b0e72082-75df-4ce5-9b30-80267a90f575")
+	)
+	(fp_line
+		(start 1.2 3.6)
+		(end 2.8 3.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e06e7892-8100-4b04-84e1-e758095ecc33")
+	)
+	(fp_line
+		(start 5.2 -5.6)
+		(end 6.1 -5.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "44de06c2-6fc6-4fe0-86b6-404f17d0ca4f")
+	)
+	(fp_line
+		(start 6.1 -5.6)
+		(end 6.1 3.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a6fa238-733a-462b-bbc7-53386cc5eace")
+	)
+	(fp_line
+		(start 6.1 3.6)
+		(end 5.2 3.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ae502b1d-f035-4987-b152-a82a4ec790cd")
+	)
+	(fp_rect
+		(start -6.4 -6.2)
+		(end 6.4 6.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9618ed59-265f-4b82-acf8-1798d1970a9a")
+	)
+	(fp_line
+		(start -6 -5.5)
+		(end 6 -5.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0f5e0fab-0579-469c-83d5-4e88042c50a7")
+	)
+	(fp_line
+		(start -6 3.5)
+		(end -6 -5.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7d1e8d35-61f3-4cce-9f6e-f8890ba1b5eb")
+	)
+	(fp_line
+		(start 6 -5.5)
+		(end 6 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "56c9c8bc-934d-46d7-ba50-86cbe5c21de2")
+	)
+	(fp_line
+		(start 6 3.5)
+		(end -6 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9994cffa-a2fc-4ea1-b271-870a93004a59")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e643b545-5b49-4221-8cb7-f400487eca6f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -4 -4.4 90)
+		(size 2.6 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "5b19ef1c-5b5f-4c6c-8f99-bc1e49360dd9")
+	)
+	(pad "1" smd roundrect
+		(at -4 4.4 90)
+		(size 2.6 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "07d6745f-dd03-493b-982b-45d2d9bc7ce0")
+	)
+	(pad "2" smd roundrect
+		(at 0 -4.4 90)
+		(size 2.6 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "23e3a7fc-b3d9-4476-bfb7-b53ce3453a9a")
+	)
+	(pad "2" smd roundrect
+		(at 0 4.4 90)
+		(size 2.6 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "c8a074f6-a8ee-4080-bdd9-4772e9f63995")
+	)
+	(pad "3" smd roundrect
+		(at 4 -4.4 90)
+		(size 2.6 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "30d17c41-1f3b-4642-8dcc-637223623c46")
+	)
+	(pad "3" smd roundrect
+		(at 4 4.4 90)
+		(size 2.6 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "f4b047bb-cda1-43d9-820f-13e693bf6475")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Amphenol.3dshapes/Amphenol_Anytek_NQ4.0_1x03_P4.0mm.step"
+		(offset
+			(xyz -6 -5.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
