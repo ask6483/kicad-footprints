@@ -1,0 +1,189 @@
+(footprint "Thermal_Fuse_Axial_L11.5mm_D4.2mm_P24mm_Horizontal"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Thermal Fuse Axial, Horizontal, 11.5x4.2mm, Pitch 24mm")
+	(tags "Thermal Fuse Axial  Horizontal")
+	(property "Reference" "REF**"
+		(at 0 -3.37 0)
+		(layer "F.SilkS")
+		(uuid "613fce78-a251-4e7e-aac1-4065ddcd0316")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Thermal_Fuse_Axial_L11.5mm_D4.2mm_P24mm_Horizontal"
+		(at 0 5.334 0)
+		(layer "F.Fab")
+		(uuid "ed8ce071-2bf5-4e50-9025-447963912210")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1c608fb-9d2c-4ef2-8183-a0bb09f57f49")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9e22db0-96bc-4609-bd3c-9c160ec25687")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -10.16 0)
+		(end -5.87 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "723a47d5-a73e-45c4-90e2-e8e2b87ff502")
+	)
+	(fp_line
+		(start -5.87 2.22)
+		(end 5.87 -2.22)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1ae1b79c-1f1b-43fd-9170-f60968ce591d")
+	)
+	(fp_line
+		(start 10.16 0)
+		(end 5.87 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b1c4e51c-9858-498a-a0b5-42ab1e108303")
+	)
+	(fp_rect
+		(start -5.87 -2.22)
+		(end 5.87 2.22)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "70cc52f4-dac9-428a-9678-f32fb9b51acb")
+	)
+	(fp_rect
+		(start -13.716 -2.5)
+		(end 13.716 2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d9ea015b-ebd9-40ac-ba78-d01c1dd8dddf")
+	)
+	(fp_line
+		(start -11.938 0)
+		(end -5.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6262df1b-0d77-401f-87ae-d21ae77c1839")
+	)
+	(fp_line
+		(start 11.938 0)
+		(end 5.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b54123f2-2ddd-4c0e-b78b-4cab674ed949")
+	)
+	(fp_rect
+		(start -5.75 -2.1)
+		(end 5.75 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8274b3f0-ff94-48c5-8272-f4b6ee9f9181")
+	)
+	(fp_text user "t^{0}"
+		(at -0.762 4.064 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1caeb7fc-332e-4ea5-acc7-8f359fe804f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "83876741-5a5b-4abf-8f91-6393189e31fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -12 0)
+		(size 2.9 2.9)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2dca9caf-f340-4b12-8266-af749c43a4d2")
+	)
+	(pad "2" thru_hole circle
+		(at 12 0)
+		(size 2.9 2.9)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a7daf2f2-9de1-4e68-bb98-6f243ba596d2")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Thermal_Fuse_Axial_L11.5mm_D4.2mm_P24mm_Horizontal.step"
+		(offset
+			(xyz 3.3 0 6.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
